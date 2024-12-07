@@ -1,14 +1,21 @@
 const Hero = () => {
   return (
-    <section className="p-3 sm:p-6 max-w-screen xl:max-w-[1440px] mx-auto">
+    <section className="p-3 sm:p-6 max-w-screen mx-auto mt-20">
       <div className="flex flex-col-reverse xl:flex-row justify-between items-center gap-y-10">
-        <div className="flex flex-col gap-10 p-6">
-          <h1 className="text-5xl gap-4">
+        <div className="flex flex-col gap-5 lg:gap-10 p-6">
+          <h1 className="text-[28px] md:text-6xl gap-4">
             Hi, I’am
-            <span className="text-6xl font-extrabold"> Aldi Fahrizi</span>
+            <span className="text-[28px] md:text-6xl font-extrabold">
+              {" "}
+              Aldi Fahrizi{" "}
+            </span>
           </h1>
-          <h1 className="text-5xl">FullStack Developer</h1>
-          <h1 className="text-5xl">
+          <h1 className="text-[28px] md:text-6xl font-bold">
+            <span className="text-black font-extrabold">FullStack</span>{" "}
+            <span className="text-outline-black">Web Developer</span>
+          </h1>
+
+          <h1 className="text-[28px] md:text-6xl">
             Based In <span className="font-extrabold">Indonesia</span>
           </h1>
           <p className="text-lg">
@@ -17,7 +24,7 @@ const Hero = () => {
             veniam illum aspernatur dolorem! A commodi cupiditate ipsam totam
             deleniti. Tempore, inventore?
           </p>
-          <button className="p-2 bg-[#202020] text-white max-w-[200px] h-12 rounded-lg ">
+          <button className="p-2 bg-[#202020] text-white max-w-[200px] h-12 rounded-lg text-xl ">
             Contact Me
           </button>
         </div>

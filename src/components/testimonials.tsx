@@ -4,7 +4,7 @@ import Marquee from "../components/ui/marquee";
 
 export default function Testimonials() {
   return (
-    <section className="py-[60px] px-6 lg:px-[112px] max-w-screen xl:max-w-[1440px] mx-auto">
+    <section className="py-[60px] px-6 lg:px-[112px] max-w-screen mx-auto">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-5xl">
           My <span className="font-bold">Testimonial</span>

@@ -1,70 +1,59 @@
 export const skills = [
   {
-    image: "./icon-git.svg",
+    image: "./skills/git.svg",
     title: "Git",
   },
   {
-    image: "./icon-git.svg",
+    image: "./skills/javascript.svg",
     title: "JavaScript",
   },
   {
-    image: "./icon-git.svg",
-    title: "NestJs",
+    image: "./skills/sass.svg",
+    title: "SaaS",
+  },
+
+  {
+    image: "./skills/typescript.svg",
+    title: "TypeScript",
   },
   {
-    image: "./icon-git.svg",
-    title: "Git",
+    image: "./skills/nextjs.svg",
+    title: "Next.js",
   },
   {
-    image: "./icon-git.svg",
-    title: "Storybook",
+    image: "./skills/reactjs.svg",
+    title: "React.js",
   },
   {
-    image: "./icon-git.svg",
-    title: "Socket.io",
-  },
-  {
-    image: "./icon-git.svg",
-    title: "Saas/Scss",
-  },
-  {
-    image: "./icon-git.svg",
-    title: "Saas/Scss",
-  },
-  {
-    image: "./icon-git.svg",
-    title: "Saas/Scss",
-  },
-  {
-    image: "./icon-git.svg",
-    title: "Saas/Scss",
+    image: "./skills/nestjs.svg",
+    title: "Nest.js",
   },
 ];
 
 export const portfolioData = [
   {
-    image: "./portfolio-projects.svg",
+    image: "./portfolio/gojek.png",
     id: 1,
-    title: "Crypto Screener Application",
+    title: "Gojek Slicing Landing Page",
     description:
       "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book",
-    website: "",
+    website: "https://gojek-slicing.vercel.app/",
   },
   {
-    image: "./portfolio-projects.svg",
+    image: "./portfolio/todo.png",
     id: 2,
-    title: "Crypto Screener Application",
+    title: "To Do List App ",
     description:
       "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book",
-    website: "",
+    website: "https://todolist-lyart-eight.vercel.app",
   },
   {
-    image: "./portfolio-projects.svg",
+    image: "./portfolio/interno.jpg",
     id: 3,
-    title: "Crypto Screener Application",
+    title: "Interior Landing Page ",
     description:
       "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book",
-    website: "",
+    website: "https://todolist-lyart-eight.vercel.app",
   },
 ];
 
@@ -92,5 +81,33 @@ export const testimonialsData = [
     text: "From concept to execution, Aldi demonstrated exceptional skill and creativity. His work exceeded our expectations in every way.",
     name: "Sarah Johnson",
     role: "Marketing Lead, DigitalWave",
+  },
+];
+
+export const menu = [
+  {
+    name: "About Me",
+    href: "/about",
+  },
+  {
+    name: "Skills",
+    href: "/skills",
+  },
+  {
+    name: "Project",
+    href: "/project",
+  },
+  {
+    name: "Contact Me",
+    href: "/contact",
+  },
+];
+
+export const experiences = [
+  {
+    role: "",
+    date: "",
+    company: "",
+    description: "",
   },
 ];

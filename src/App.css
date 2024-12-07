@@ -1,22 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer utilities {
+  .text-outline-black {
+    -webkit-text-stroke: 2px black; /* Outline hitam dengan ketebalan 2px */
+    color: transparent; /* Membuat teks transparan */
+  }
+}
 .btn-socialmedia {
-  @apply p-[18px] bg-black text-white rounded-lg;
+  @apply p-[18px] bg-black text-white rounded-lg size-14;
 }
 
 .btn-socialmedia-outline {
-  @apply border-2 p-[18px] rounded-lg border-black hover:bg-black;
-}
-
-.container {
-  @layer py-6 max-w-screen xl:max-w-[1280px] mx-auto;
+  @apply border-2 p-[18px] rounded-lg border-black hover:bg-black size-14;
 }
 
 @layer base {
   :root {
-
     --background: 0 0% 100%;
 
     --foreground: 0 0% 3.9%;
@@ -65,10 +65,9 @@
 
     --chart-5: 27 87% 67%;
 
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
   .dark {
-
     --background: 0 0% 3.9%;
 
     --foreground: 0 0% 98%;
@@ -115,7 +114,7 @@
 
     --chart-4: 280 65% 60%;
 
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
 

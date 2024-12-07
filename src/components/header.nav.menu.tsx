@@ -1,21 +1,5 @@
-const menu = [
-  {
-    name: "About Me",
-    href: "/about",
-  },
-  {
-    name: "Skills",
-    href: "/skills",
-  },
-  {
-    name: "Project",
-    href: "/project",
-  },
-  {
-    name: "Contact Me",
-    href: "/contact",
-  },
-];
+import { menu } from "@/const/const";
+
 export default function NavMenu() {
   return (
     <nav className="hidden lg:flex items-center gap-8 ">

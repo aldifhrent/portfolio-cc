@@ -1,14 +1,14 @@
 export default function AboutMe() {
   return (
-    <section className="py-[60px] px-6 lg:px-[112px] max-w-screen xl:max-w-[1440px] mx-auto">
-      <div className="flex flex-col lg:flex-row gap-[80.55px]">
-        <img src="./about-me.svg" />
+    <section className="py-[60px] px-6 lg:px-[112px] max-w-screen mx-auto mt-20">
+      <div className="flex flex-col xl:flex-row gap-[80.55px]">
+        <img src="./about-me.svg" className="max-w-[600px]" />
         <div className="flex flex-col space-y-5 ">
-          <h1 className="text-5xl">
+          <h1 className="text-[28px] md:text-5xl">
             About <span className="font-bold">Me</span>
           </h1>
-          <p className="text-base lg:text-lg">
-            I'm a passionate, self-proclaimed designer who specializes in full
+          <p className="text-base md:text-lg">
+            I'm a passionate, self-proclaimed designer w ho specializes in full
             stack development (React.js & Node.js). I am very enthusiastic about
             bringing the technical and visual aspects of digital products to
             life. User experience, pixel perfect design, and writing clear,

@@ -10,11 +10,11 @@ export const PortfolioCard = (props: IPortfolioCard) => {
   const isEven = props.id % 2 === 0;
   return (
     <div
-      className={`flex flex-col lg:flex-row ${
+      className={`flex flex-col xl:flex-row ${
         isEven ? "flex-row-reverse" : "flex-row"
-      } justify-between gap-0 lg:gap-[104px]`}
+      } justify-between gap-0 xl:gap-[104px]`}
     >
-      <img src={props.image} className="w-screen" />
+      <img src={props.image} className="w-[500px]" />
       <div className="flex flex-col  text-white py-0 lg:py-[110px] gap-7">
         <h1 className="text-[20px] lg:text-5xl font-bold">{formattedId}</h1>
         <h2 className="text-[20px] lg:text-[32px] font-bold text-nowrap">
