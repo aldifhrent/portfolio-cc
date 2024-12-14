@@ -1,10 +1,9 @@
 import { testimonialsData } from "../const/const";
 import { TestimonialCard } from "./testimonial.card";
 import Marquee from "../components/ui/marquee";
-import { useTestimonials } from "@/lib/testimonials";
+import { ITestimonialCard } from "@/types/types";
 
 export default function Testimonials() {
-  const { testimonials } = useTestimonials();
   return (
     <section className="py-[60px] px-6 lg:px-[112px] max-w-screen mx-auto">
       <div className="flex flex-col items-center justify-center">
@@ -14,7 +13,7 @@ export default function Testimonials() {
 
         <div className="relative flex mt-[60px] w-screen flex-col items-center justify-center overflow-hidden">
           <Marquee pauseOnHover className="[--duration:20s]">
-            {testimonialsData.map((item, index) => (
+            {testimonialsData.map((item: ITestimonialCard, index) => (
               <TestimonialCard
                 key={index}
                 image={item.image}

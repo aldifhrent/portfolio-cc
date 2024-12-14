@@ -31,9 +31,6 @@ export interface TestimonialAvatarProps {
 export interface ITestimonialCard {
   image: string;
   text: string;
-  name: {
-    firstName: string;
-    lastName: string;
-  };
+  name: string;
   role: string;
 }
