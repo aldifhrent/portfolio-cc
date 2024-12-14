@@ -1,19 +1,13 @@
-interface IExperienceProps {
-  role: string;
-  company: string;
-  description: string;
-  date: string;
-}
+import { IExperienceProps } from "@/types/types";
 
 export default function ExperienceCard(experience: IExperienceProps) {
   return (
-    <div className="px-2 py-[30px] border-[1px] min-w-[400px] max-h-[600px] rounded-lg">
+    <div className="p-2 sm:p-6 py-[30px] border-[1px]  w-[500px] md:w-[700px] lg:w-[900px] min-h-[200px] rounded-lg flex items-center">
       <div className="flex flex-col">
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full gap-y-[30px]">
           <div className="flex items-center gap-[30px]">
-            <img src="./google.svg" className="w-8 h-8" alt="Google Logo" />
-            <h1 className="text-lg text-white lg:text-2xl text-nowrap">
-              {experience.company} at ${experience.company}
+            <h1 className="text-xl text-white lg:text-xl font-bold">
+              {experience.role} at {experience.company}
             </h1>
           </div>
 

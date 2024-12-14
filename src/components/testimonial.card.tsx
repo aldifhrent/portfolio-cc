@@ -1,11 +1,5 @@
+import { ITestimonialCard } from "@/types/types";
 import TestimonialAvatar from "./testimonial.avatar";
-
-interface ITestimonialCard {
-  image: string;
-  text: string;
-  name: string;
-  role: string;
-}
 
 export const TestimonialCard = (props: ITestimonialCard) => {
   return (
@@ -17,7 +11,7 @@ export const TestimonialCard = (props: ITestimonialCard) => {
         </p>
         <hr className="w-[120px] border-2 border-black mt-6 group-hover:border-white transition-colors duration-300" />
         <h2 className="mt-2 font-bold text-[20px] text-black group-hover:text-white transition-colors duration-300">
-          {props.name}
+          {props.name.firstName} {props.name.lastName}
         </h2>
         <h3 className="mt-2 font-bold text-zinc-500 group-hover:text-white transition-colors duration-300">
           {props.role}

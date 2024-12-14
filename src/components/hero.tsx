@@ -1,17 +1,18 @@
 const Hero = () => {
   return (
-    <section className="p-3 sm:p-6 max-w-screen mx-auto mt-20">
+    <section className="p-3 sm:p-6 w-screen mx-auto mt-20">
       <div className="flex flex-col-reverse xl:flex-row justify-between items-center gap-y-10">
         <div className="flex flex-col gap-5 lg:gap-10 p-6">
-          <h1 className="text-[28px] md:text-6xl gap-4">
+          <h1 className="text-[28px] md:text-6xl">
             Hi, I’am
-            <span className="text-[28px] md:text-6xl font-extrabold">
+            <span className="text-[28px] sm:text-4xl md:text-6xl font-extrabold">
               {" "}
               Aldi Fahrizi{" "}
             </span>
           </h1>
-          <h1 className="text-[28px] md:text-6xl font-bold">
-            <span className="text-black font-extrabold">FullStack</span>{" "}
+          <div className="flex"></div>
+          <h1 className="flex gap-4 text-[28px] sm:text-4xl md:text-6xl">
+            <span className="font-extrabold">FullStack</span>
             <span className="text-outline-black">Web Developer</span>
           </h1>
 

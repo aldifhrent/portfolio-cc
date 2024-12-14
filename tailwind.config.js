@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {
       container: {
+        center: true,
         padding: {
-          default: "90px",
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
         },
       },
       borderRadius: {

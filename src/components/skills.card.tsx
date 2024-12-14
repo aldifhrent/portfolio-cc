@@ -1,7 +1,4 @@
-interface ISkillCard {
-  image: string | null;
-  title: string;
-}
+import { ISkillCard } from "@/types/types";
 
 export default function SkillCard(props: ISkillCard) {
   return (

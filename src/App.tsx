@@ -9,8 +9,7 @@ import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 
-/*************  ✨ Codeium Command ⭐  *************/
-/******  1670f977-02cb-4425-aef1-e0a3e8526acf  *******/ function App() {
+function App() {
   return (
     <>
       <div className="">
@@ -23,8 +22,6 @@ import Footer from "./components/footer";
         <Testimonials />
         <Contact />
         <Footer />
-        {/* Contact */}
-        {/* Footer */}
       </div>
     </>
   );

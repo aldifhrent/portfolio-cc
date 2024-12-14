@@ -1,10 +1,6 @@
 import { menu } from "@/const/const";
+import { MobileMenuProps } from "@/types/types";
 import { X } from "lucide-react";
-
-interface MobileMenuProps {
-  isOpen: boolean;
-  handleClose: () => void;
-}
 
 export default function MobileMenu({ isOpen, handleClose }: MobileMenuProps) {
   return (
@@ -16,7 +12,6 @@ export default function MobileMenu({ isOpen, handleClose }: MobileMenuProps) {
       <div className="flex items-center justify-between">
         <div className="flex gap-2 items-center p-1">
           <img src="/logo.svg" alt="Logo" />
-          <p className="font-bold text-xl">Persona Website</p>
         </div>
         <div className="flex justify-end p-4">
           <button

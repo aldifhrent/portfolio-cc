@@ -7,12 +7,9 @@
     color: transparent; /* Membuat teks transparan */
   }
 }
-.btn-socialmedia {
-  @apply p-[18px] bg-black text-white rounded-lg size-14;
-}
 
-.btn-socialmedia-outline {
-  @apply border-2 p-[18px] rounded-lg border-black hover:bg-black size-14;
+.btn-socialmedia {
+  @apply border-2 p-[18px] rounded-lg border-black  size-14;
 }
 
 @layer base {
