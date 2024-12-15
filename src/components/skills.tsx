@@ -12,14 +12,14 @@ export default function MySkills() {
   const devOpsSkills = skills.filter((skill) => skill.category === "Dev Ops");
 
   return (
-    <section className="py-[60px] px-6 lg:px-[112px] w-screen mx-auto">
+    <section className="container w-screen mx-auto mt-20">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-5xl">
           My <span className="font-bold">Skills</span>
         </h1>
 
         {/* Front-End Skills */}
-        <div className="mt-[102px]">
+        <div className="mt-[50px]">
           <h2 className="text-3xl font-bold">Front-End</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
             {frontEndSkills.map((value, idx) => (

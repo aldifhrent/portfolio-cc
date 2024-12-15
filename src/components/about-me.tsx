@@ -1,8 +1,8 @@
 export default function AboutMe() {
   return (
-    <section className="py-[60px] px-6 lg:px-[112px] w-screen mx-auto mt-20">
+    <section className="container w-screen mx-auto mt-20">
       <div className="flex flex-col xl:flex-row gap-[80.55px]">
-        <img src="./about-me.svg" className="max-w-[600px]" />
+        <img src="./about-me.svg" className="w-[400px] max-w-[600px] mx-auto" />
         <div className="flex flex-col space-y-5 ">
           <h1 className="text-[28px] md:text-5xl">
             About <span className="font-bold">Me</span>

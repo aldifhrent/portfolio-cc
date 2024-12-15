@@ -3,16 +3,19 @@ import { ExternalLink } from "lucide-react";
 import { Link } from "react-router";
 
 export const PortfolioCard = (props: IPortfolio) => {
-  const formattedId = props.id?.toString().padStart(2, "0");
-  const isEven = (props.id as number) % 2 === 0;
+  const id = Number(props.id) || 0;
+  const formattedId = id.toString().padStart(2, "0");
+
+  const isEven = Number(id) % 2 === 0;
+
   return (
     <div
-      className={`flex flex-col xl:flex-row ${
-        isEven ? "flex-row-reverse" : "flex-row"
-      } justify-between gap-0 xl:gap-[104px]`}
+      className={`flex pl-4 lg:pl-0  ${
+        isEven ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
+      } justify-between gap-12 xl:gap-[104px]`}
     >
-      <img src={props.image} className="w-[500px]" />
-      <div className="flex flex-col  text-white py-0 lg:py-[110px] gap-7">
+      <img src={props.image} className="max-w-[400px]" alt={props.title} />
+      <div className="flex flex-col text-white py-0 lg:py-[110px] gap-7 mt-10">
         <h1 className="text-[20px] lg:text-5xl font-bold">{formattedId}</h1>
         <h2 className="text-[20px] lg:text-[32px] font-bold text-nowrap">
           {props.title}

@@ -34,7 +34,7 @@ export default function MobileMenu({ isOpen, handleClose }: MobileMenuProps) {
         ))}
         <button className="flex w-[153px] h-[56px] bg-black text-white items-center justify-center gap-2 font-semibold text-xl leading-6 tracking-[2%] rounded-lg">
           Resume
-          <img src="./download-icon.svg" alt="Download Icon" />
+          <img src="./icons/download-icon.svg" alt="Download Icon" />
         </button>
       </ul>
     </nav>

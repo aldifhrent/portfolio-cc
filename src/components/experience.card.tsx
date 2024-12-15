@@ -4,8 +4,8 @@ export default function ExperienceCard(experience: IExperienceProps) {
   return (
     <div className="p-2 sm:p-6 py-[30px] border-[1px]  w-[500px] md:w-[700px] lg:w-[900px] min-h-[200px] rounded-lg flex items-center">
       <div className="flex flex-col">
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full gap-y-[30px]">
-          <div className="flex items-center gap-[30px]">
+        <div className="flex flex-col lg:flex-row  justify-between w-full gap-y-[30px]">
+          <div className="flex items-center gap-[30px] ">
             <h1 className="text-xl text-white lg:text-xl font-bold">
               {experience.role} at {experience.company}
             </h1>
