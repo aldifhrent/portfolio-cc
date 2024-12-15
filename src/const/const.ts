@@ -90,18 +90,22 @@ export const menu = [
   {
     name: "About Me",
     href: "/about",
+    id: "about",
   },
   {
     name: "Skills",
     href: "/skills",
+    id: "skills",
   },
   {
     name: "Project",
     href: "/project",
+    id: "portfolio",
   },
   {
     name: "Contact Me",
     href: "/contact",
+    id: "contact",
   },
 ];
 

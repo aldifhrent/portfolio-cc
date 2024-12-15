@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section className="container w-screen mx-auto mt-20">
+    <section className="container w-screen mx-auto mt-20" id="about">
       <div className="flex flex-col xl:flex-row gap-[80.55px]">
         <img src="./about-me.svg" className="w-[400px] max-w-[600px] mx-auto" />
         <div className="flex flex-col space-y-5 ">

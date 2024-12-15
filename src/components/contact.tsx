@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <section className="container mt-20 w-screen min-h-fit mx-auto ">
+    <section
+      className="container mt-20 w-screen min-h-fit mx-auto "
+      id="contact"
+    >
       <div className="flex flex-col lg:flex-row gap-[108px] mx-auto p-12 items-start">
         <div className="flex flex-col gap-5 px-2">
           <input

@@ -12,7 +12,7 @@ export default function MySkills() {
   const devOpsSkills = skills.filter((skill) => skill.category === "Dev Ops");
 
   return (
-    <section className="container w-screen mx-auto mt-20">
+    <section className="container w-screen mx-auto mt-20" id="skills">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-5xl">
           My <span className="font-bold">Skills</span>
