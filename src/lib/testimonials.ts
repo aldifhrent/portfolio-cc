@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-// Custom hook to fetch author data (multiple authors)
 export const useTestimonials = () => {
-  const [testimonials, setTestimonials] = useState([]); // State to store the authors data
-
+  const [testimonials, setTestimonials] = useState([]); 
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
@@ -17,8 +15,8 @@ export const useTestimonials = () => {
       }
     };
 
-    fetchTestimonials(); // Fetch authors data on mount
-  }, []); // Empty dependency array means this runs once on mount
+    fetchTestimonials(); 
+  }, []); 
 
   return { testimonials };
 };

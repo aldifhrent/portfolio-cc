@@ -2,9 +2,6 @@ import { skills } from "../const/const";
 import SkillCard from "./skills.card";
 
 export default function MySkills() {
-  // Kelompokkan skills berdasarkan kategori
-  // Update the filter conditions to match the category names in the `skills` array
-
   const frontEndSkills = skills.filter(
     (skill) => skill.category === "Front End"
   );
