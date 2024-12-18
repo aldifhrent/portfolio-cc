@@ -1,8 +1,9 @@
 const Hero = () => {
   return (
-    <section className="container w-screen mx-auto mt-20">
+    <section className="w-screen mt-20">
+      <div className="container">
       <div className="flex flex-col-reverse xl:flex-row justify-between items-center gap-y-10">
-        <div className="flex flex-col gap-5 lg:gap-10 p-6">
+        <div className="flex flex-col gap-5 lg:gap-10 p-2">
           <h1 className="text-[28px] sm:text-5xl md:text-6xl">
             Hi, I’am
             <span className="text-[28px] sm:text-5xl md:text-6xl font-extrabold">
@@ -10,7 +11,6 @@ const Hero = () => {
               Aldi Fahrizi{" "}
             </span>
           </h1>
-          <div className="flex"></div>
           <h1 className="flex gap-4 text-[28px] sm:text-5xl md:text-6xl text-nowrap">
             <span className="font-extrabold">FullStack</span>
             <span className="text-outline-black">Web Developer</span>
@@ -32,9 +32,10 @@ const Hero = () => {
         <div>
           <img
             src="./hero-img.svg"
-            className="max-w-[580px] lg:max-w-screen-sm lg:max-h-[556px]"
+            className="min-w-[500px]"
           />
         </div>
+      </div>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ import { IExperienceProps } from "@/types/types";
 
 export default function ExperienceCard(experience: IExperienceProps) {
   return (
-    <div className="p-2 sm:p-6 py-[30px] border-[1px]  w-[500px] md:w-[700px] lg:w-[900px] min-h-[200px] rounded-lg flex items-center">
+    <div className="p-4 sm:p-6 py-[30px] border-[1px]  w-[300px] md:w-[700px] lg:w-[900px] min-h-[200px] rounded-lg flex items-center">
       <div className="flex flex-col">
         <div className="flex flex-col lg:flex-row  justify-between w-full gap-y-[30px]">
           <div className="flex items-center gap-[30px] ">

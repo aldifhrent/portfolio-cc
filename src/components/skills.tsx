@@ -21,7 +21,7 @@ export default function MySkills() {
         {/* Front-End Skills */}
         <div className="mt-[50px]">
           <h2 className="text-3xl font-bold">Front-End</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
             {frontEndSkills.map((value, idx) => (
               <SkillCard key={idx} image={value.image} title={value.title} />
             ))}
@@ -31,7 +31,7 @@ export default function MySkills() {
         {/* Back-End Skills */}
         <div className="mt-[60px]">
           <h2 className="text-3xl font-bold">Back-End</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
             {backEndSkills.map((value, idx) => (
               <SkillCard key={idx} image={value.image} title={value.title} />
             ))}
@@ -41,7 +41,7 @@ export default function MySkills() {
         {/* DevOps Skills */}
         <div className="mt-[60px]">
           <h2 className="text-3xl font-bold">DevOps</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-10 lg:gap-[71.5px] mt-4">
             {devOpsSkills.map((value, idx) => (
               <SkillCard key={idx} image={value.image} title={value.title} />
             ))}
