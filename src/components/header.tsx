@@ -35,7 +35,7 @@ export default function Header() {
       <div className="flex justify-between items-center mx-auto py-2 px-8">
         {/* Logo */}
         <Link to="/">
-          <img src="/logo.svg" alt="Logo" />
+          <img src="/logov2.svg" alt="Logo" />
         </Link>
 
         {/* Desktop Navigation */}
