@@ -3,7 +3,7 @@ import TestimonialAvatar from "./testimonial.avatar";
 
 export const TestimonialCard = (props: ITestimonialCard) => {
   return (
-    <div className="w-[370px] h-[398px] p-10 border-2 border-zinc-300 rounded-lg shadow-xl group hover:bg-black hover:border-white transition-colors duration-300">
+    <div className="w-[450px] h-[398px] p-10 border-2 border-zinc-300 rounded-lg shadow-xl group hover:bg-black hover:border-white transition-colors duration-300">
       <div className="flex flex-col items-center justify-center">
         <TestimonialAvatar image={props.image} />
         <p className="mt-6 text-center text-black group-hover:text-white transition-colors duration-300">
