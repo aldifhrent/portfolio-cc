@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="w-screen mt-20">
       <div className="container">
-      <div className="flex flex-col-reverse xl:flex-row justify-between items-center gap-y-10">
+      <div className="flex flex-col-reverse xl:flex-row justify-between items-stretch gap-y-10">
         <div className="flex flex-col gap-5 lg:gap-10 p-2">
           <h1 className="text-[28px] sm:text-5xl md:text-6xl">
             Hi, I’am
